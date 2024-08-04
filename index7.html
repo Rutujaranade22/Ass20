@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flex-boxes 7</title>
+<style>
+.cardscontainer{
+    background-color: rgb(88, 118, 118);
+    width: 1500px;
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+flex-direction:row-reverse;
+justify-content:center;
+ align-items:center;  
+    }
+
+.card{
+    width: 150px;
+    height: 240px;
+    border: 4px double black;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: antiquewhite;}
+
+.cardimg{
+    width: 100%;
+    height: 100px;
+    border-radius: 7px 7px 0 0;}
+
+.cardtitle{
+    text-align: center;
+    margin: 0;
+    padding: 0;}
+    
+    .btn {
+        background-color: #ff9933;
+        padding: 5px 20px;
+        border-radius: 30px;
+        border: none;
+        display: block;
+        margin: 10px auto;}
+
+</style>
+</head>
+<body>
+    <div class="cardscontainer">
+
+        <div class="card">
+            <img src="./images/iphone.jpeg" class="cardimg">
+            <h4>IPHONE BUDS</h4>
+            <p><b>Price:</b>2000/-</p>
+            <button class="btn">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="./images/kdm.jpeg" class="cardimg">
+            <h4>KDM BUDS</h4>
+            <p><b>Price:</b>1375/-</p>
+            <button class="btn">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="./images/boat.jpeg" class="cardimg">
+            <h4>BOAT BUDS</h4>
+            <p><b>Price:</b>1449/-</p>
+            <button class="btn">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="./images/realme.jpeg" class="cardimg">
+            <h4>REALME BUDS</h4>
+            <p><b>Price:</b>777/-</p>
+            <button class="btn">Add to cart</button>
+        </div>
+        <div class="card">
+            <img src="./images/samsung.jpeg" class="cardimg">
+            <h4>SAMSUNG BUDS </h4>
+            <p><b>Price:</b>1500/-</p>
+            <button class="btn">Add to cart</button>
+        </div>
+
+    </div>
+</body>
+</html>
